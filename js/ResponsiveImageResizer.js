@@ -32,7 +32,7 @@ $.fn.ResponsiveImageResizer = function(options){
 	var WidthArray = ImageWidths;
 	WidthArray.sort(function(a,b){return a-b});
 
-	$(element).load(function(){
+	$(element).ready(function(){
 
 		ImageResize();
 
