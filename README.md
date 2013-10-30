@@ -10,4 +10,4 @@ $('img').ResponsiveImageResizer({
 });
 ```
 
-for ```htmlmy-image.png, my-image-1200.png, my-image-992.png, my-image-768.png``` 
+for ```my-image.png, my-image-1200.png, my-image-992.png, my-image-768.png``` 
