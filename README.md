@@ -14,10 +14,9 @@ $('img').ResponsiveImageResizer({
 
 for ```my-image.png, my-image-1200.png, my-image-992.png, my-image-768.png``` 
 
-You don't need use css for this anymore.
+You don't need use css for this anymore:
 
 ```css
-<style>
 img {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -25,24 +24,22 @@ img {
 }
 
 @media screen and (max-width: 1200px) {
-	svg {
+	img {
 		background-image: url(my-image-1200.png");
 	}
 }
 
 @media screen and (max-width: 992px) {
-	svg {
+	img {
 		background-image: url(my-image-992.png");
 	}
 }
 
 @media screen and (max-width: 768px) {
-	svg {
+	img {
 		background-image: url(my-image-768.png");
 	}
 }
-
-</style>
 ``` 
 
 ## Demo
