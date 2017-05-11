@@ -20,24 +20,24 @@ You don't need use css for this anymore:
 img {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url(img/my-image.png");
+	background-image: url(img/my-image.png);
 }
 
 @media screen and (max-width: 1200px) {
 	img {
-		background-image: url(my-image-1200.png");
+		background-image: url(my-image-1200.png);
 	}
 }
 
 @media screen and (max-width: 992px) {
 	img {
-		background-image: url(my-image-992.png");
+		background-image: url(my-image-992.png);
 	}
 }
 
 @media screen and (max-width: 768px) {
 	img {
-		background-image: url(my-image-768.png");
+		background-image: url(my-image-768.png);
 	}
 }
 ``` 
